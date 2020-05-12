@@ -1,6 +1,10 @@
+#include"Vehicle.h"
+#include"Person.h"
+#include <string>
+using namespace std;
 int main()
 {
-	int Apfel;
-	int birne = 3;
-	
+	Person Dieter("Dieter", de);
+	Person Gisela("Gisela", it);
+	Dieter.greet(Gisela);
 }
