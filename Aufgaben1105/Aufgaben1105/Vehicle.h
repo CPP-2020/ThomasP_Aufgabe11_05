@@ -7,6 +7,8 @@ class Vehicle
 {
 public:
 	Vehicle(string name, Pos pos, int horsepower, int seats, string color);
+	void enter(Person person);
+	void exit(int seat_number);
 private:
 
 	string name_;
@@ -19,5 +21,7 @@ private:
 	int gethorsepower();
 	int getseats();
 	string getcolor();
+	vector<Person> passengers;
+	
 };
 

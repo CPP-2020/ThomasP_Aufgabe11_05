@@ -17,5 +17,9 @@ void Person::greet(Person other)
 	default:
 		break;
 	}
+}
 
+string Person::getname()
+{
+	return name_;
 }

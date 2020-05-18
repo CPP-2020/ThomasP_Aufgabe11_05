@@ -8,9 +8,9 @@ class Person
 public:
 	Person(string name, Nationality nationality);
 	void greet(Person other);
+	string getname();
 
 private:
-	vector<Person> passengers;
 	string name_;
 	Nationality nationality_;
 	
